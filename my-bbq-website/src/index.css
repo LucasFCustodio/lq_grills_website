@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #B71C1C;
+  --primary-light: #D32F2F;
+  --primary-dark: #8B0000;
+  --secondary: #5D4037;
+  --secondary-light: #795548;
+  --secondary-dark: #3E2723;
+  --accent: #FF9800;
+  --accent-light: #FFA726;
+  --accent-dark: #F57C00;
+  --background: #FFFAF0;
+  --text: #212121;
+  --text-light: #757575;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-body text-gray-900 bg-amber-50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl leading-snug mt-12 mb-4;
+  }
+
+  h3 {
+    @apply text-2xl sm:text-3xl leading-snug mt-8 mb-3;
+  }
+
+  p {
+    @apply mb-6 leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-6 py-3 rounded-lg font-semibold text-white transition duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark focus:ring-primary;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary hover:bg-secondary-dark focus:ring-secondary;
+  }
+
+  .btn-accent {
+    @apply bg-accent text-secondary-dark hover:bg-accent-dark focus:ring-accent;
+  }
+
+  .section {
+    @apply py-12 md:py-20;
+  }
+
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl;
+  }
+  
+  .input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+  }
+  
+  .hamburger-line {
+    @apply h-0.5 w-6 my-1 rounded-full bg-secondary transition ease transform duration-300;
+  }
+}
