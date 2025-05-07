@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Flame, Phone, Mail, MapPin, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Flame, Phone, Mail, Clock, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -55,23 +55,19 @@ const Footer: React.FC = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
+            <h3 className="text-xl font-semibold mb-4" id="contactInfo">Contact Information</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone size={20} className="text-accent mr-2 mt-1 flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>(561) 702-5574</span>
               </li>
               <li className="flex items-start">
                 <Mail size={20} className="text-accent mr-2 mt-1 flex-shrink-0" />
-                <span>info@bbqmasters.com</span>
-              </li>
-              <li className="flex items-start">
-                <MapPin size={20} className="text-accent mr-2 mt-1 flex-shrink-0" />
-                <span>123 Grill Street, Barbecue City, BC 12345</span>
+                <span>lucasquality555@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <Clock size={20} className="text-accent mr-2 mt-1 flex-shrink-0" />
-                <span>Available: 7 days a week, 9am - 9pm</span>
+                <span>Call, email, or request a quote for time availability</span>
               </li>
             </ul>
           </div>

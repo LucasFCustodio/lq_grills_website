@@ -5,6 +5,8 @@ import { ArrowRight, Flame, Trophy, Users, Clock, DollarSign, ChefHat } from 'lu
 import ContactForm from '../components/ContactForm';
 import TestimonialCard from '../components/TestimonialCard';
 import ServiceCard from '../components/ServiceCard';
+import tomahawkImage from '../images/tomahawk-steak-bbq-catering.jpg';
+import hamburgerImage from '../assets/hamburger-patties-being-grilled-on-charcoal-kettle-2025-04-01-01-30-38-utc-min.jpg';
 
 const HomePage: React.FC = () => {
   const fadeIn = {
@@ -31,7 +33,7 @@ const HomePage: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Authentic BBQ Catering For Your Special Events
+              Boios BBQ - Premium BBQ Catering For Your Special Events
             </motion.h1>
             <motion.p 
               className="text-xl text-gray-200 mb-8"
@@ -86,7 +88,7 @@ const HomePage: React.FC = () => {
                 <ChefHat size={32} />
               </div>
               <h3 className="text-xl font-bold mb-2">Expert Grill Masters</h3>
-              <p className="text-gray-600">Our chefs bring years of experience and passion to every event, ensuring authentic flavors and perfect cooking.</p>
+              <p className="text-gray-600">Chef Lucas brings years of experience and passion to every event, ensuring authentic flavors and perfect cooking.</p>
             </motion.div>
             
             <motion.div 
@@ -101,7 +103,7 @@ const HomePage: React.FC = () => {
                 <Trophy size={32} />
               </div>
               <h3 className="text-xl font-bold mb-2">Premium Quality</h3>
-              <p className="text-gray-600">We source only the finest ingredients and meats to deliver an exceptional culinary experience for your guests.</p>
+              <p className="text-gray-600">Chef Lucas understands that there's much more to grilling than just throwing a steak onto the grill. You're guaranteed to have an exceptional culinary experience.</p>
             </motion.div>
             
             <motion.div 
@@ -115,8 +117,8 @@ const HomePage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 text-primary rounded-full mb-4">
                 <Users size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-2">Tailored Experience</h3>
-              <p className="text-gray-600">Every event is unique, and we customize our services to match your specific needs and preferences.</p>
+              <h3 className="text-xl font-bold mb-2">Personal Experience</h3>
+              <p className="text-gray-600">We're not some huge company, so you can rest assured we'll deliver a personal and pleasant experience.</p>
             </motion.div>
           </div>
         </div>
@@ -134,13 +136,13 @@ const HomePage: React.FC = () => {
             >
               <div className="relative">
                 <img 
-                  src="https://images.pexels.com/photos/8522778/pexels-photo-8522778.jpeg" 
-                  alt="Boios BBQ grilling" 
+                  src={tomahawkImage}
+                  alt="tomahawk-bbq-catering" 
                   className="rounded-lg shadow-xl"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-lg shadow-lg hidden md:block">
-                  <p className="text-2xl font-bold">15+</p>
-                  <p className="text-sm">Years Experience</p>
+                  <p className="text-2xl font-bold">Driven by</p>
+                  <p className="text-2xl font-bold">Precision & Passion</p>
                 </div>
               </div>
             </motion.div>
@@ -153,13 +155,13 @@ const HomePage: React.FC = () => {
             >
               <h2 className="text-3xl font-display font-bold text-secondary mb-6">About Boios BBQ Catering</h2>
               <div className="border-l-4 border-primary pl-4 mb-6">
-                <p className="text-xl text-gray-700 italic">Bringing authentic barbecue culture to your special events.</p>
+                <p className="text-xl text-gray-700 italic">Mastering the art of the perfect steak — for events that leave a lasting flavor.</p>
               </div>
               <p className="text-gray-700 mb-4">
-                With over 15 years of experience, Boios BBQ has been delighting clients with our authentic Brazilian and American barbecue catering services. Our passion for great food and exceptional service is evident in every event we cater.
+              At Boios BBQ, we specialize in delivering a rich, flavorful barbecue experience rooted in skill and precision — not just tradition. Our passion lies in perfecting every cut, from the sear of a beautiful crust to the exact temperature and tenderness of each steak.
               </p>
               <p className="text-gray-700 mb-6">
-                We started with a simple goal: to share our love for traditional barbecue with the community. Today, we've grown into a full-service catering company known for our attention to detail, quality ingredients, and unforgettable flavors.
+              Our bbq catering brings together the bold flavors of Brazilian BBQ, the hearty spirit of American barbecue, and premium cuts like Porterhouse, Tomahawk, Rump, and Flank steak. Every event is a chance to showcase our dedication to seasoning, doneness, and quality that your guests will remember.
               </p>
               
               <div className="grid grid-cols-2 gap-4 mb-8">
@@ -193,7 +195,7 @@ const HomePage: React.FC = () => {
       <section className="py-20 bg-amber-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-display font-bold text-secondary mb-4">Our Popular BBQ Packages</h2>
+            <h2 className="text-3xl font-display font-bold text-secondary mb-4">Our Popular BBQ Catering Packages</h2>
             <p className="text-gray-700 max-w-3xl mx-auto">
               We offer a variety of BBQ catering packages to suit your event needs. From authentic Brazilian churrasco to classic American barbecue, our options are designed to delight your guests.
             </p>
@@ -203,7 +205,7 @@ const HomePage: React.FC = () => {
             <ServiceCard
               title="Brazilian BBQ"
               description="Experience authentic churrasco with our premium Brazilian BBQ package featuring Picanha steak, Linguiça sausage, and traditional sides."
-              image="https://images.pexels.com/photos/8522557/pexels-photo-8522557.jpeg"
+              image="https://img.freepik.com/fotos-gratis/bife-suculento-medio-raro-com-especiarias-e-legumes-grelhados_2829-18672.jpg?t=st=1746557279~exp=1746560879~hmac=b19d3d64665628fa4df8f25ef93bec7ec801c24bc35d3d1d81cd18957c08be53&w=996"
               price="Starting at $25 per person"
               link="/services"
               delay={0.1}
@@ -212,9 +214,9 @@ const HomePage: React.FC = () => {
             <ServiceCard
               title="American BBQ"
               description="Classic American barbecue with premium burgers, hot dogs, and all the fixings. Perfect for casual gatherings and family events."
-              image="https://images.pexels.com/photos/8523403/pexels-photo-8523403.jpeg"
+              image={hamburgerImage}
               price="Starting at $20 per person"
-              link="/services"
+              link="/services#americanBBQ"
               delay={0.2}
             />
           </div>
@@ -265,7 +267,8 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Gallery Section */}
+      {/* 
+      Gallery Section 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -304,6 +307,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-amber-50">
