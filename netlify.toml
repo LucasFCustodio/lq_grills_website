@@ -1,7 +1,7 @@
 [build]
 base = "my-bbq-website"
 command = "npm run build"
-publish = "my-bbq-website/dist"
+publish = "dist"
 
 [[redirects]]
 from = "/*"
