@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Boios BBQ - Premium BBQ Catering For Your Special Events
+              Boios BBQ - Premium BBQ Catering For Your Special Events TESTING!
             </motion.h1>
             <motion.p 
               className="text-xl text-gray-200 mb-8"
