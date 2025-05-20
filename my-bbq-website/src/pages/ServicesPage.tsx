@@ -7,6 +7,8 @@ import tomahawkSteak from '../images/tomahawk-steak-bbq-catering.jpg';
 import chickenHearts from '../images/chicken-hearts-bbq-catering-prices.jpg';
 import rumpSteak from '../images/rump-steak-bbq-catering-prices.jpg';
 import garlicBread from '../images/garlic-bread-bbq-catering-prices.jpg';
+import porterHouse from '../images/porterhouse-steak-boios-bbq-catering-prices.jpg';
+import flankSteak from '../images/flank-steak-boios-bbq-catering-prices.jpg'
 
 const ServicesPage: React.FC = () => {
   return (
@@ -62,12 +64,17 @@ const ServicesPage: React.FC = () => {
             >
               <div className="bg-accent text-white text-sm font-bold px-4 py-1 rounded-full w-fit mb-4">Popular Choice</div>
               <h2 className="text-3xl font-display font-bold text-secondary mb-4">Brazilian BBQ Catering Package</h2>
-              <p className="text-xl text-primary font-bold mb-4">Starting at $150</p>
-              <p className="text-gray-700 mb-6">
-                Experience the authentic flavors of Brazil with our traditional churrasco-style barbecue. This base package includes 2 hours of on-site grilling and service, priced at a flat rate of $150 for up to 8 people (food not included). 
-                As your guest count increases, the overall price adjusts accordingly, and additional grilling time is included to ensure every guest receives freshly grilled food. If you’d prefer that we handle the food shopping 
-                (recommended for quality and convenience), just mention it in your quote request.
+              <p className="text-xl text-primary font-bold mb-4">Starting at $130 for 4 people</p>
+              <p className="text-gray-700 mb-1">
+                Experience the authentic flavors of Brazil with our traditional churrasco-style barbecue. This base package includes 2 hours of on-site grilling and service, priced at a flat rate of $150 for up to 8 people
               </p>
+              <h3>Pricing Options</h3>
+              <ul>
+                <li>You provide the steak: $130 for up to 4 people</li>
+                <li>We provide the steak: $130 for up to 4 people, <b>plus the cost of steak</b></li>
+                <li><b>Each additional guest: +$12</b></li>
+                <li>Note: Rice, farofa, vinaigrette, and garlic bread are <b>included</b> at no extra cost.</li>
+              </ul>
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">What's in the Brazilian BBQ:</h3>
                 <ul className="space-y-2">
@@ -81,19 +88,11 @@ const ServicesPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Garlic Bread</span> - Home made cheesy Brazilian garlic bread, better than any store bought ones (5 units per serving).</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Brazilian Rice</span> - White Rice with the option of adding onions and/or fresh herbs</span>
+                    <span><span className="font-semibold">Garlic Bread</span> - Cheesy Brazilian garlic bread (10 units per serving).</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
                     <span><span className="font-semibold">Farofa</span> - Traditional toasted cassava flour mixture</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Vinaigrette Salsa</span> - Fresh tomato, bell pepper, and onion salsa</span>
                   </li>
                 </ul>
               </div>
@@ -113,9 +112,6 @@ const ServicesPage: React.FC = () => {
                 <a href="/#contact" className="btn btn-primary">
                   Request a Quote
                 </a>
-                <button className="btn bg-white text-secondary border border-secondary hover:bg-gray-100">
-                  Download Menu PDF
-                </button>
               </div>
             </motion.div>
           </div>
@@ -130,39 +126,36 @@ const ServicesPage: React.FC = () => {
               className="flex flex-col justify-center order-2 lg:order-1"
             >
               <h2 className="text-3xl font-display font-bold text-secondary mb-4">American BBQ Catering Package</h2>
-              <p className="text-xl text-primary font-bold mb-4">Starting at $150</p>
-              <p className="text-gray-700 mb-6">
-                Enjoy classic American barbecue favorites, perfect for casual gatherings, family reunions, and backyard parties. This base package includes 2 hours of on-site grilling and service, priced at a flat rate of $150 for up to 8 people (food not included). 
-                As your guest count increases, the overall price adjusts accordingly, and additional grilling time is included to ensure every guest receives freshly grilled food. If you’d prefer that we handle the food shopping 
-                (recommended for quality and convenience), just mention it in your quote request.
+              <p className="text-xl text-primary font-bold mb-4">Starting at $130 for 4 people</p>
+              <p className="text-gray-700 mb-1">
+                Enjoy classic American barbecue favorites, perfect for casual gatherings, family reunions, and backyard parties. This base package includes 2 hours of on-site grilling and service, priced at $130 for 4 people.
               </p>
+              <h3>Pricing Options</h3>
+              <ul>
+                <li>You provide the steak: $130 for up to 4 people</li>
+                <li>We provide the steak: $130 for up to 4 people, <b>plus the cost of steak</b></li>
+                <li><b>Each additional guest: +$12</b></li>
+                <li>Note: Rice, farofa, vinaigrette, and garlic bread are <b>included</b> at no extra cost.</li>
+              </ul>
               
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">What's in the American BBQ:</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Gourmet Burgers</span> - Premium beef patties with assorted toppings and buns</span>
+                    <span><span className="font-semibold">Burgers</span> - Premium beef patties with assorted toppings and buns</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Hot Dogs</span> - Premium beef franks with classic and gourmet toppings</span>
+                    <span><span className="font-semibold">Hot Dogs</span> - Premium hot dogs with classic and gourmet toppings</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Coleslaw</span> - Creamy cabbage slaw with our secret dressing</span>
+                    <span><span className="font-semibold">Garlic Bread</span> - Home made cheesy Brazilian garlic bread, better than any store bought ones (10 units per serving)</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Potato Salad</span> - Classic American-style with eggs and fresh herbs</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Corn on the Cob</span> - Sweet corn grilled and brushed with herb butter</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Watermelon</span> - Fresh, seasonal slices (when available)</span>
+                    <span><span className="font-semibold">Cowboy Butter</span> - Signature cowboy butter, made with herbs, spices, and more</span>
                   </li>
                 </ul>
               </div>
@@ -182,9 +175,6 @@ const ServicesPage: React.FC = () => {
                 <a href="/#contact" className="btn btn-primary">
                   Request a Quote
                 </a>
-                <button className="btn bg-white text-secondary border border-secondary hover:bg-gray-100">
-                  Download Menu PDF
-                </button>
               </div>
             </motion.div>
             
@@ -234,6 +224,18 @@ const ServicesPage: React.FC = () => {
                     image: rumpSteak
                   },
                   {
+                    name: "Porterhouse Steak",
+                    description: "A thick, juicy cut that combines the tender filet mignon and the flavorful strip steak in one massive cut.",
+                    price: "$59.99 per steak",
+                    image: porterHouse
+                  },
+                  {
+                    name: "Flank Steak",
+                    description: "Lean, rich, and full of beefy flavor, grilled to perfection and sliced thin across the grain for tenderness.",
+                    price: "$69.99 per steak",
+                    image: flankSteak
+                  },
+                  {
                     name: "Garlic Bread",
                     description: "Want some extra garlic spiciness. Add garlic bread to your meal",
                     price: "$10.99 per pound",
@@ -261,9 +263,9 @@ const ServicesPage: React.FC = () => {
                       <p className="text-gray-600 mb-4">{item.description}</p>
                       <div className="flex items-center justify-between">
                         <span className="text-primary font-bold">{item.price}</span>
-                        <button className="btn btn-primary btn-sm">
+                        <a href="/#contact"><button className="btn btn-primary btn-sm">
                           Add to Package
-                        </button>
+                        </button></a>
                       </div>
                     </div>
                   </motion.div>
@@ -406,7 +408,7 @@ const ServicesPage: React.FC = () => {
               <p className="text-gray-700 mb-4">
                 Have more questions? We're happy to help!
               </p>
-              <a href="#contactInfo" className="btn btn-primary">
+              <a href="/#contact" className="btn btn-primary">
                 Contact Us
               </a>
             </motion.div>
