@@ -294,8 +294,8 @@ const ContactForm: React.FC = () => {
               className="input"
             >
               <option value="">Select a Package (Optional)</option>
-              <option value="brazilian">Brazilian BBQ Package (Starting at $150)</option>
-              <option value="american">American BBQ Package (Starting at $150)</option>
+              <option value="brazilian">Brazilian BBQ Package (Starting at $130)</option>
+              <option value="american">American BBQ Package (Starting at $130)</option>
             </select>
           </div>
 

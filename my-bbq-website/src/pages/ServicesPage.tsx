@@ -151,7 +151,7 @@ const ServicesPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Garlic Bread</span> - Home made cheesy Brazilian garlic bread, better than any store bought ones (10 units per serving)</span>
+                    <span><span className="font-semibold">Garlic Bread</span> - Cheesy Garlic Bread (10 units per serving)</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
@@ -208,7 +208,7 @@ const ServicesPage: React.FC = () => {
                   {
                     name: "Tomahawk Steak",
                     description: "40oz of prime ribeye with the full bone attached, perfect for sharing and presentation",
-                    price: "$69.99 per steak",
+                    price: "$54.99 per steak",
                     image: tomahawkSteak
                   },
                   {
@@ -220,19 +220,19 @@ const ServicesPage: React.FC = () => {
                   {
                     name: "Rump Steak",
                     description: "Lean and flavorful cut, ideal for serving a crowd",
-                    price: "$24.99 per pound",
+                    price: "$49.99 per steak per pound",
                     image: rumpSteak
                   },
                   {
                     name: "Porterhouse Steak",
                     description: "A thick, juicy cut that combines the tender filet mignon and the flavorful strip steak in one massive cut.",
-                    price: "$59.99 per steak",
+                    price: "$54.99 per steak",
                     image: porterHouse
                   },
                   {
                     name: "Flank Steak",
                     description: "Lean, rich, and full of beefy flavor, grilled to perfection and sliced thin across the grain for tenderness.",
-                    price: "$69.99 per steak",
+                    price: "$54.99 per steak",
                     image: flankSteak
                   },
                   {
