@@ -73,18 +73,20 @@ const ServicesPage: React.FC = () => {
               <p>For the best experience, we recommend the following approach:</p>
               <ul>
                 <li>Pay us for the steaks upfront</li>
-                <li>We got to the local Brazilian market and get the steaks, ensuring best quality and authenticity</li>
+                <li>We go to the local Brazilian market and get the steaks, ensuring best quality and authenticity</li>
                 <li>You pay us for the service in the end</li>
                 <li>Alternatively, you can buy the steaks yourself, and we will handle the grilling for you.</li>
                 <li><b>Each additional guest: +$12</b></li>
                 <li>Vinaigrette sold for $15. Highly recommended!</li>
               </ul>
+
               <h3>We include the following items, free of charge:</h3>
               <ul>
                 <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Rice - Homemade by me</span></li>
                 <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Farofa - Traditional toasted cassava flour mixture</span></li>
                 <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Garlic Bread - Cheesy Brazilian garlic bread</span></li>
               </ul>
+
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">What's in the Brazilian BBQ:</h3>
                 <ul className="space-y-2">
@@ -132,12 +134,20 @@ const ServicesPage: React.FC = () => {
               <p className="text-gray-700 mb-1">
                 Enjoy classic American barbecue favorites, perfect for casual gatherings, family reunions, and backyard parties. This base package includes 2 hours of on-site grilling and service, priced at $130 for 4 people.
               </p>
-              <h3>Pricing Options</h3>
+              <h3>Pricing Details</h3>
+              <p>For the best experience, we recommend the following approach:</p>
               <ul>
-                <li>You provide the steak: $130 for up to 4 people</li>
-                <li>We provide the steak: $130 for up to 4 people, <b>plus the cost of steak</b></li>
+                <li>Pay us for the burgers upfront</li>
+                <li>We go to the supermarket and get the burgers, ensuring best quality and authenticity</li>
+                <li>You pay us for the service in the end</li>
+                <li>Alternatively, you can buy the burgers yourself, and we will handle the grilling for you.</li>
                 <li><b>Each additional guest: +$12</b></li>
-                <li>Note: Rice, farofa, vinaigrette, and garlic bread are <b>included</b> at no extra cost.</li>
+              </ul>
+
+              <h3>We include the following items, free of charge:</h3>
+              <ul>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Cowboy Butter - Homemade, signature cowboy butter, made with herbs, spices, and more. Highly recommended</span></li>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Garlic Bread - Cheesy Brazilian garlic bread</span></li>
               </ul>
               
               <div className="mb-6">
@@ -149,15 +159,11 @@ const ServicesPage: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Hot Dogs</span> - Premium hot dogs with classic and gourmet toppings</span>
+                    <span><span className="font-semibold">Lettuce, Tomatoes, and Onions</span> - To make your burgers experience a complete one (optionally, remove any you want it)</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Garlic Bread</span> - Cheesy Garlic Bread (10 units per serving)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Cowboy Butter</span> - Signature cowboy butter, made with herbs, spices, and more</span>
+                    <span><span className="font-semibold">Bacon</span> - Fried on a pan, in the grill, to not lose its juiciness (optionally, remove if you want it)</span>
                   </li>
                 </ul>
               </div>
@@ -165,7 +171,7 @@ const ServicesPage: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 <div className="flex items-center bg-white p-3 rounded-lg">
                   <Clock className="text-primary mr-2" size={20} />
-                  <span>2+ hours service</span>
+                  <span>Geill until everything is done</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
                   <Users className="text-primary mr-2" size={20} />
