@@ -70,20 +70,20 @@ const ServicesPage: React.FC = () => {
                 Each additional guest is $12 dollars more (8 people would be $48 + $130 = $178).
               </p>
               <h3>Pricing Details</h3>
+              <p>For the best experience, we recommend the following approach:</p>
               <ul>
-                <li>
-                  For the best experience, we recommend that you provide the money for the steaks, and we go buy them for you. This ensures the highest quality and authenticity.
-                  This way, you'd pay the regular amount for the service (dependent on the number of people), plus the cost of the steak for us to buy for you.
-                </li>
+                <li>Pay us for the steaks upfront</li>
+                <li>We got to the local Brazilian market and get the steaks, ensuring best quality and authenticity</li>
+                <li>You pay us for the service in the end</li>
                 <li>Alternatively, you can buy the steaks yourself, and we will handle the grilling for you.</li>
                 <li><b>Each additional guest: +$12</b></li>
-                <li>You can purchase our vinaigrette for $15. We highly recommend, as it highly elevates the taste of the steak if you enjoy it. It comes with a lot!</li>
+                <li>Vinaigrette sold for $15. Highly recommended!</li>
               </ul>
               <h3>We include the following items, free of charge:</h3>
               <ul>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />Rice - Homemade by me</li>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />Farofa - Traditional toasted cassava flour mixture</li>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />Garlic Bread - Cheesy Brazilian garlic bread</li>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Rice - Homemade by me</span></li>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Farofa - Traditional toasted cassava flour mixture</span></li>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Garlic Bread - Cheesy Brazilian garlic bread</span></li>
               </ul>
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">What's in the Brazilian BBQ:</h3>
