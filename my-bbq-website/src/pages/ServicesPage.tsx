@@ -62,37 +62,39 @@ const ServicesPage: React.FC = () => {
               viewport={{ once: true }}
               className="flex flex-col justify-center"
             >
-              <div className="bg-accent text-white text-sm font-bold px-4 py-1 rounded-full w-fit mb-4">Popular Choice</div>
+              <div className="bg-accent text-white text-sm font-bold px-4 py-1 rounded-full w-fit mb-4">Chef's Specialty</div>
               <h2 className="text-3xl font-display font-bold text-secondary mb-4">Brazilian BBQ Catering Package</h2>
               <p className="text-xl text-primary font-bold mb-4">Starting at $130 for 4 people</p>
               <p className="text-gray-700 mb-1">
-                Experience the authentic flavors of Brazil with our traditional churrasco-style barbecue. This base package includes 2 hours of on-site grilling and service, priced at a flat rate of $150 for up to 8 people
+                Experience the authentic flavors of Brazil with our traditional churrasco-style barbecue. This base package includes ON-SITE GRILLING, priced at a flat rate of $130 for up to 4 people.
+                Each additional guest is $12 dollars more (8 people would be $48 + $130 = $178).
               </p>
-              <h3>Pricing Options</h3>
+              <h3>Pricing Details</h3>
               <ul>
-                <li>You provide the steak: $130 for up to 4 people</li>
-                <li>We provide the steak: $130 for up to 4 people, <b>plus the cost of steak</b></li>
+                <li>
+                  For the best experience, we recommend that you provide the money for the steaks, and we go buy them for you. This ensures the highest quality and authenticity.
+                  This way, you'd pay the regular amount for the service (dependent on the number of people), plus the cost of the steak for us to buy for you.
+                </li>
+                <li>Alternatively, you can buy the steaks yourself, and we will handle the grilling for you.</li>
                 <li><b>Each additional guest: +$12</b></li>
-                <li>Note: Rice, farofa, vinaigrette, and garlic bread are <b>included</b> at no extra cost.</li>
+                <li>You can purchase our vinaigrette for $15. We highly recommend, as it highly elevates the taste of the steak if you enjoy it. It comes with a lot!</li>
+              </ul>
+              <h3>We include the following items, free of charge:</h3>
+              <ul>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />Rice - Homemade by me</li>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />Farofa - Traditional toasted cassava flour mixture</li>
+                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />Garlic Bread - Cheesy Brazilian garlic bread</li>
               </ul>
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3">What's in the Brazilian BBQ:</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Picanha Steak</span> - The king of Brazilian cuts, seasoned with rock salt and slow grilled to perfection</span>
+                    <span><span className="font-semibold">Picanha Steak</span> - The king of Brazilian cuts, seasoned with rock salt and grilled to perfection (grill time - fast)</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Linguiça Sausage</span> - Traditional Brazilian pork sausage, with the choice for spicy Brazilian pork sausage instead</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Garlic Bread</span> - Cheesy Brazilian garlic bread (10 units per serving).</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Farofa</span> - Traditional toasted cassava flour mixture</span>
+                    <span><span className="font-semibold">Linguiça Sausage</span> - Traditional Brazilian pork sausage, with the choice for spicy Brazilian pork sausage instead (grill time - medium)</span>
                   </li>
                 </ul>
               </div>
@@ -100,7 +102,7 @@ const ServicesPage: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 <div className="flex items-center bg-white p-3 rounded-lg">
                   <Clock className="text-primary mr-2" size={20} />
-                  <span>2+ hours service</span>
+                  <span>Grill until everything is done</span>
                 </div>
                 <div className="flex items-center bg-white p-3 rounded-lg">
                   <Users className="text-primary mr-2" size={20} />
