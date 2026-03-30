@@ -81,16 +81,16 @@ const ServicesPage: React.FC = () => {
               </ul>
 
               <h3>We include the following items, free of charge:</h3>
-              <ul>
-                <li>
+              <ul className="space-y-2">
+                <li className="flex items-start">
                   <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
                   <span><span className="font-semibold">Rice</span> - Homemade by me</span>
                 </li>
-                <li>
+                <li className="flex items-start">
                   <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
                   <span><span className="font-semibold">Farofa</span> - Traditional toasted cassava flour mixture</span>
                 </li>
-                <li>
+                <li className="flex items-start">
                   <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
                   <span><span className="font-semibold">Garlic Bread</span> - Cheesy Brazilian garlic bread</span>
                 </li>
@@ -154,12 +154,12 @@ const ServicesPage: React.FC = () => {
               </ul>
 
               <h3>We include the following items, free of charge:</h3>
-              <ul>
-                <li>
+              <ul className="space-y-2">
+                <li className="flex items-start">
                   <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
                   <span><span className="font-semibold">Cowboy Butter</span> - Homemade, signature cowboy butter, made with herbs, spices, and more. Highly recommended</span>
                 </li>
-                <li>
+                <li className="flex items-start">
                   <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
                   <span><span className="font-semibold">Garlic Bread</span> - Cheesy Brazilian garlic bread</span>
                 </li>
