@@ -82,9 +82,18 @@ const ServicesPage: React.FC = () => {
 
               <h3>We include the following items, free of charge:</h3>
               <ul>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Rice - Homemade by me</span></li>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Farofa - Traditional toasted cassava flour mixture</span></li>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Garlic Bread - Cheesy Brazilian garlic bread</span></li>
+                <li>
+                  <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
+                  <span><span className="font-semibold">Rice</span> - Homemade by me</span>
+                </li>
+                <li>
+                  <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
+                  <span><span className="font-semibold">Farofa</span> - Traditional toasted cassava flour mixture</span>
+                </li>
+                <li>
+                  <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
+                  <span><span className="font-semibold">Garlic Bread</span> - Cheesy Brazilian garlic bread</span>
+                </li>
               </ul>
 
               <div className="mb-6">
@@ -146,8 +155,14 @@ const ServicesPage: React.FC = () => {
 
               <h3>We include the following items, free of charge:</h3>
               <ul>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Cowboy Butter - Homemade, signature cowboy butter, made with herbs, spices, and more. Highly recommended</span></li>
-                <li><Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" /><span>Garlic Bread - Cheesy Brazilian garlic bread</span></li>
+                <li>
+                  <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
+                  <span><span className="font-semibold">Cowboy Butter</span> - Homemade, signature cowboy butter, made with herbs, spices, and more. Highly recommended</span>
+                </li>
+                <li>
+                  <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
+                  <span><span className="font-semibold">Garlic Bread</span> - Cheesy Brazilian garlic bread</span>
+                </li>
               </ul>
               
               <div className="mb-6">
