@@ -233,33 +233,42 @@ const HomePage: React.FC = () => {
       <section id="testimonials" className="py-20 bg-secondary bg-texture bg-blend-soft-light">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-display font-bold text-white mb-4">What Our Clients Say</h2>
+            <h2 className="text-3xl font-display font-bold text-white mb-4">What Our Clients Say (REAL REVIEWS)</h2>
             <p className="text-gray-200 max-w-3xl mx-auto">
-              Don't just take our word for it. Here's what our happy customers have to say about our BBQ catering services.
+              The following are reviews from my clients, which they have posted online. Don't just take my word for it. See what they thought about the experience
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <TestimonialCard
-              name="Sarah Johnson"
-              event="Wedding Reception"
-              quote="The Brazilian BBQ package was the highlight of our wedding reception! The Picanha steak was perfectly cooked, and all our guests were impressed."
+              name="Kristin Dorm"
+              event="School Sport's Team Gathering"
+              quote="
+              If you’re ever looking to host a BBQ at your home, please consider https://boios-bbq-catering.com/ . Lucas catered a party for 20 at our home last night and he was fantastic! 
+              Very professional, tasty food and the guests loved him. He’s a local FAU college student who is incredibly talented and he lives in Saturnia! We can’t wait to have him back.
+              "
               rating={5}
               delay={0.1}
             />
             
             <TestimonialCard
-              name="Michael Rodriguez"
-              event="Corporate Event"
-              quote="Boios BBQ catered our company picnic, and the food was exceptional. The staff was professional, and the setup was impressive. Will definitely hire again!"
+              name="Ariella Khaitov"
+              event="Birthday Party - Family"
+              quote="
+              Thank you to Lucas who came by this week to grill everything from burgers to steaks to sausage for my husbands birthday!! 
+              The food was unreal. He lives in Saturnia as well! Give him a call for an awesome BBQ +1 (561) 702-5574
+              "
               rating={5}
               delay={0.2}
             />
             
             <TestimonialCard
-              name="Jennifer Williams"
-              event="Birthday Party"
-              quote="We chose the American BBQ package for my husband's 40th birthday. The burgers and hot dogs were a hit! Amazing service and attention to detail."
+              name="Oscar Gonzales"
+              event="Friends Gathering"
+              quote="
+              Lucas grilled us a Porterhouse Steak, and it hit the spot. With the steak, he also made his signature cowboy butter. It definitely 
+              elevated the taste of the steak so much! He really knows his stuff, and his technique is on point!
+              "
               rating={4}
               delay={0.3}
             />
