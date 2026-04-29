@@ -77,7 +77,6 @@ const ServicesPage: React.FC = () => {
                 <li>You pay us for the service in the end</li>
                 <li>Alternatively, you can buy the steaks yourself, and we will handle the grilling for you.</li>
                 <li><b>Each additional guest: +$12</b></li>
-                <li>Vinaigrette sold for $15. Highly recommended!</li>
               </ul>
 
               <h3>We include the following items, free of charge:</h3>
@@ -101,11 +100,18 @@ const ServicesPage: React.FC = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Picanha Steak</span> - The king of Brazilian cuts, seasoned with rock salt and grilled to perfection (grill time - fast)</span>
+                    <span><span className="font-semibold">Picanha Steak</span> - + $15, pairs well with the Picanha and Linguiça. A refreshing combination (literaly)</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
                     <span><span className="font-semibold">Linguiça Sausage</span> - Traditional Brazilian pork sausage, with the choice for spicy Brazilian pork sausage instead (grill time - medium)</span>
+                  </li>
+                </ul>
+                <h3 className="text-xl font-bold mb-3">Recommended Add-Ons</h3>
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
+                    <span><span className="font-semibold">Vinaigrette (Homemade)</span> - The king of Brazilian cuts, seasoned with rock salt and grilled to perfection (grill time - fast)</span>
                   </li>
                 </ul>
               </div>
@@ -138,16 +144,16 @@ const ServicesPage: React.FC = () => {
               viewport={{ once: true }}
               className="flex flex-col justify-center order-2 lg:order-1"
             >
-              <h2 className="text-3xl font-display font-bold text-secondary mb-4">American BBQ Catering Package</h2>
+              <h2 className="text-3xl font-display font-bold text-secondary mb-4">Steak Aficionado Package</h2>
               <p className="text-xl text-primary font-bold mb-4">Starting at $130 for 4 people</p>
               <p className="text-gray-700 mb-1">
-                Enjoy classic American barbecue favorites, perfect for casual gatherings, family reunions, and backyard parties. This base package includes 2 hours of on-site grilling and service, priced at $130 for 4 people.
+                The perfect package for those who love to get fancy with their steak. Enjoy premium steaks, perfectly seasoned, and perfectly grilled!
               </p>
               <h3>Pricing Details</h3>
               <p>For the best experience, we recommend the following approach:</p>
               <ul>
-                <li>Pay us for the burgers upfront</li>
-                <li>We go to the supermarket and get the burgers, ensuring best quality and authenticity</li>
+                <li>Pay us for the steaks upfront</li>
+                <li>We go to the supermarket and get the Porterhouse Steak and Flank Steak, ensuring best quality and authenticity</li>
                 <li>You pay us for the service in the end</li>
                 <li>Alternatively, you can buy the burgers yourself, and we will handle the grilling for you.</li>
                 <li><b>Each additional guest: +$12</b></li>
@@ -157,7 +163,7 @@ const ServicesPage: React.FC = () => {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                  <span><span className="font-semibold">Cowboy Butter</span> - Homemade, signature cowboy butter, made with herbs, spices, and more. Highly recommended</span>
+                  <span><span className="font-semibold">Rice</span> - Homemade by me</span>
                 </li>
                 <li className="flex items-start">
                   <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
@@ -166,19 +172,22 @@ const ServicesPage: React.FC = () => {
               </ul>
               
               <div className="mb-6">
-                <h3 className="text-xl font-bold mb-3">What's in the American BBQ:</h3>
+                <h3 className="text-xl font-bold mb-3">What's in the Steak Aficionado Package:</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Burgers</span> - Premium beef patties with assorted toppings and buns</span>
+                    <span><span className="font-semibold">Porterhouse Steak</span> - Similar to the T-Bone, it has 2 sides: Filet Mignion, and New York Strip</span>
                   </li>
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Lettuce, Tomatoes, and Onions</span> - To make your burgers experience a complete one (optionally, remove any you want it)</span>
+                    <span><span className="font-semibold">Flank Steak</span> - A bigger piece of steak, offers a thin side and a thick side, incredibly juicy</span>
                   </li>
+                </ul>
+                <h3 className="text-xl font-bold mb-3">Recommended Add-Ons</h3>
+                <ul className="space-y-2">
                   <li className="flex items-start">
                     <Check size={20} className="text-success mt-1 mr-2 flex-shrink-0" />
-                    <span><span className="font-semibold">Bacon</span> - Fried on a pan, in the grill, to not lose its juiciness (optionally, remove if you want it)</span>
+                    <span><span className="font-semibold">Cowboy Butter (Homemade)</span> - Elavate the taste of your steak by adding a hint of spiciness, zestiness, and delicious butter creaminess</span>
                   </li>
                 </ul>
               </div>
@@ -209,8 +218,8 @@ const ServicesPage: React.FC = () => {
               className="order-1 lg:order-2"
             >
               <img 
-                src="https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg" 
-                alt="American BBQ" 
+                src={porterHouse} 
+                alt="Porterhouse Steak" 
                 className="rounded-lg shadow-xl w-full h-80 object-cover"
               />
             </motion.div>
